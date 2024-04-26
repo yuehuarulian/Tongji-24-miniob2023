@@ -1,0 +1,22 @@
+{
+	"fields" : 
+	[
+		{
+			"len" : 4,
+			"name" : "id",
+			"offset" : 0,
+			"type" : "ints",
+			"visible" : true
+		},
+		{
+			"len" : 4,
+			"name" : "u_date",
+			"offset" : 4,
+			"type" : "booleans",
+			"visible" : true
+		}
+	],
+	"indexes" : null,
+	"table_id" : 0,
+	"table_name" : "date_table"
+}
