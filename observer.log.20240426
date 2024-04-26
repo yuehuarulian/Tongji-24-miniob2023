@@ -1,0 +1,90 @@
+[2024-04-26 05:16:12.005653 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: init@init.cpp:218] >> Output configuration 
+Begin dump configuration
+[]
+
+Finish dump configuration 
+
+[2024-04-26 05:16:12.010951 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:128, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.011396 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:256, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.011817 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:384, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.013958 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:512, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.014450 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:640, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.014961 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:768, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.015461 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:896, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.015881 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1024, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.016352 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1152, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.016808 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1280, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.017398 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1408, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.017878 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1536, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.018353 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1664, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.018768 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1792, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.019239 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1920, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.019725 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2048, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.020188 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2176, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.020634 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2304, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.021104 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2432, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.021563 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.021753 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: init@mem_pool.h:192] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:16:12.023169 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: BufferPoolManager@disk_buffer_pool.cpp:656] >> buffer pool manager init with memory size 20971520, page num: 2560, pool num: 20
+[2024-04-26 05:16:12.036033 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: init@clog.cpp:293] >> open clog file success. file=miniob/db/sys/clog, fd=5
+[2024-04-26 05:16:12.037686 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: open_all_tables@db.cpp:177] >> All table have been opened. num=0
+[2024-04-26 05:16:12.038211 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: recover@clog.cpp:537] >> find 0 uncommitted trx
+[2024-04-26 05:16:12.038423 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: init@default_handler.cpp:76] >> Default handler init with miniob success
+[2024-04-26 05:16:12.038659 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: init@init.cpp:233] >> Successfully init utility
+[2024-04-26 05:17:50.860149 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: main@main.cpp:198] >> Server stopped
+[2024-04-26 05:17:50.860587 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: sync@db.cpp:202] >> Successfully sync db. db=sys
+[2024-04-26 05:17:50.861131 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: ~Db@db.cpp:35] >> Db has been closed: sys
+[2024-04-26 05:17:50.861401 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: ~CLogFile@clog.cpp:300] >> close clog file. file=miniob/db/sys/clog, fd=5
+[2024-04-26 05:17:50.869944 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: cleanup@mem_pool.h:218] >> Successfully do cleanup, this->name:BufPool.
+[2024-04-26 05:17:50.872100 pid:3187 tid:7fa05d4a27c0 ctx:0 INFO: cleanup_util@init.cpp:247] >> Shutdown Cleanly!
+[2024-04-26 05:20:51.982382 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: init@init.cpp:218] >> Output configuration 
+Begin dump configuration
+[]
+
+Finish dump configuration 
+
+[2024-04-26 05:20:51.986487 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:128, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.986955 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:256, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.987405 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:384, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.987900 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:512, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.988440 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:640, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.988895 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:768, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.989351 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:896, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.989736 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1024, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.990170 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1152, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.990771 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1280, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.991313 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1408, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.991909 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1536, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.992418 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1664, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.992909 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1792, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.993411 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:1920, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.993916 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2048, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.994317 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2176, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.994806 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2304, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.995297 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2432, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.995822 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: extend@mem_pool.h:245] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.996412 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: init@mem_pool.h:192] >> Extend one pool, this->size:2560, item_num_per_pool:128, this->name:BufPool.
+[2024-04-26 05:20:51.998600 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: BufferPoolManager@disk_buffer_pool.cpp:656] >> buffer pool manager init with memory size 20971520, page num: 2560, pool num: 20
+[2024-04-26 05:20:52.001365 pid:385 tid:7f0bfb9227c0 ctx:0 WARN: create_db@default_handler.cpp:100] >> Db already exists: sys
+[2024-04-26 05:20:52.007782 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: init@clog.cpp:293] >> open clog file success. file=miniob/db/sys/clog, fd=5
+[2024-04-26 05:20:52.009503 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: open_all_tables@db.cpp:177] >> All table have been opened. num=0
+[2024-04-26 05:20:52.010065 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: recover@clog.cpp:537] >> find 0 uncommitted trx
+[2024-04-26 05:20:52.010317 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: init@default_handler.cpp:76] >> Default handler init with miniob success
+[2024-04-26 05:20:52.010578 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: init@init.cpp:233] >> Successfully init utility
+[2024-04-26 05:20:52.010802 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: init_server@main.cpp:105] >> Use port config in command line: 6789
+[2024-04-26 05:20:52.011173 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: start_tcp_server@server.cpp:194] >> Listen on port 6789
+[2024-04-26 05:20:52.011347 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: start_tcp_server@server.cpp:197] >> Observer start success
+[2024-04-26 05:23:42.918040 pid:385 tid:7f0bfb9227c0 ctx:0 WARN: serve@server.cpp:273] >> [listen socket] poll error. fd = 6, ret = -1, error=Interrupted system call
+[2024-04-26 05:23:42.918034 pid:385 tid:7f0bf7073640 ctx:0 INFO: quit_thread_func@main.cpp:151] >> Receive signal: 2
+[2024-04-26 05:23:42.918633 pid:385 tid:7f0bf7073640 ctx:0 INFO: shutdown@server.cpp:301] >> NetServer shutting down
+[2024-04-26 05:23:42.918460 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: await_stop@one_thread_per_connection_thread_handler.cpp:169] >> begin to await stop one thread per connection thread handler
+[2024-04-26 05:23:42.919006 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: await_stop@one_thread_per_connection_thread_handler.cpp:173] >> end to await stop one thread per connection thread handler
+[2024-04-26 05:23:42.919193 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: await_stop@one_thread_per_connection_thread_handler.cpp:169] >> begin to await stop one thread per connection thread handler
+[2024-04-26 05:23:42.919403 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: await_stop@one_thread_per_connection_thread_handler.cpp:173] >> end to await stop one thread per connection thread handler
+[2024-04-26 05:23:42.919585 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: serve@server.cpp:295] >> NetServer quit
+[2024-04-26 05:23:42.919750 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: main@main.cpp:198] >> Server stopped
+[2024-04-26 05:23:42.919984 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: sync@db.cpp:202] >> Successfully sync db. db=sys
+[2024-04-26 05:23:42.920217 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: ~Db@db.cpp:35] >> Db has been closed: sys
+[2024-04-26 05:23:42.920504 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: ~CLogFile@clog.cpp:300] >> close clog file. file=miniob/db/sys/clog, fd=5
+[2024-04-26 05:23:42.927570 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: cleanup@mem_pool.h:218] >> Successfully do cleanup, this->name:BufPool.
+[2024-04-26 05:23:42.927953 pid:385 tid:7f0bfb9227c0 ctx:0 INFO: cleanup_util@init.cpp:247] >> Shutdown Cleanly!

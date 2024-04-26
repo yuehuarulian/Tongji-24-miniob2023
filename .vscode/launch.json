@@ -1,29 +1,42 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "cppdbg",
-            "request": "launch",
-            "name": "Debug",
-            "program": "${workspaceFolder}/${defaultBuildTask}/bin/observer",
-            "args": ["-f", "${workspaceFolder}/etc/observer.ini", "-P", "cli"],
-            "cwd": "${workspaceFolder}/${defaultBuildTask}/",
-            "externalConsole":true,
-            "internalConsoleOptions": "openOnSessionStart",
-            "osx": {
-                "MIMode": "lldb"
-            }
-        },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "LLDB",
-            "program": "${workspaceFolder}/${defaultBuildTask}/bin/observer",
-            "args": ["-f", "${workspaceFolder}/etc/observer.ini", "-P", "cli"],
-            "cwd": "${workspaceFolder}/${defaultBuildTask}/"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "cppdbg",
+      "request": "launch",
+      "name": "Debug",
+      "program": "${workspaceFolder}/${defaultBuildTask}/bin/observer",
+      "args": ["-f", "${workspaceFolder}/etc/observer.ini", "-P", "cli"],
+      "cwd": "${workspaceFolder}/${defaultBuildTask}/",
+      "externalConsole": true,
+      // "sourceFileMap": { "/source": "E:/Docker" },
+      // "pipeTransport": {
+      //     "pipeCwd": "${workspaceFolder}",
+      //     "pipeProgram": "docker",
+      //     "pipeArgs": [
+      //         "exec", // exec是运行已有的容器，也可以使用docker run，原理差不多
+      //         "-i",
+      //         "fortest", // 镜像名字
+      //         "sh",
+      //         "-c"
+      //     ],
+      //     "debuggerPath": "/usr/bin/gdb"
+      // },
+      "internalConsoleOptions": "openOnSessionStart",
+      "osx": {
+        "MIMode": "lldb"
+      }
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "LLDB",
+      "program": "${workspaceFolder}/${defaultBuildTask}/bin/observer",
+      "args": ["-f", "${workspaceFolder}/etc/observer.ini", "-P", "cli"],
+      "cwd": "${workspaceFolder}/${defaultBuildTask}/"
+    }
+  ]
 }

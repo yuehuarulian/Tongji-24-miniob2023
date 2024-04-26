@@ -51,6 +51,12 @@ public:
       const AttrInfoSqlNode attributes[]);
 
   /**
+   * 销毁一个表
+   * @param dir 表数据存放的路径
+   */
+  RC destroy(const char* dir);
+  
+  /**
    * 打开一个表
    * @param meta_file 保存表元数据的文件完整路径
    * @param base_dir 表所在的文件夹，表记录数据文件、索引数据文件存放位置
