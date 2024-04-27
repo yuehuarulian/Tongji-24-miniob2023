@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-
+# python3 miniob_test.py --test-cases=primary-date -d --work-dir="E:\Docker\miniob\test"
 import os
 import json
 import sys

@@ -26,15 +26,15 @@ int string_to_date(const std::string &str, int32_t &date)
 }
 std::string date_to_string(int32_t date)
 {
-  std::string ans       = "YYYY-MM-DD";
-  std::string tmp       = std::to_string(date);
-  int         tmp_index = 7;
+  std::string ans = "YYYY-MM-DD";
+  std::string tmp = std::to_string(date);
+  std::cout << "date:" << date << "tmp:" << tmp << "  " << tmp.size() << std::endl;
+  int tmp_index = 7;
   for (int i = 9; i >= 0; i--) {
-    if (i == 7 || i == 4) {
-      ans[i] = '-';
-    } else {
-      ans[i] = tmp[tmp_index--];
-    }
+    if (i == 7 || i == 4)
+      continue;
+    ans.replace(i, 1, 1, tmp[tmp_index--]);
   }
+  std::cout << "ans1:" << ans << std::endl;
   return ans;
 }

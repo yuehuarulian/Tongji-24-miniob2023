@@ -12,11 +12,11 @@
 			"len" : 4,
 			"name" : "u_date",
 			"offset" : 4,
-			"type" : "booleans",
+			"type" : "dates",
 			"visible" : true
 		}
 	],
 	"indexes" : null,
-	"table_id" : 0,
+	"table_id" : 1,
 	"table_name" : "date_table"
 }

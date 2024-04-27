@@ -110,12 +110,13 @@ RC Db::create_table(const char *table_name, int attribute_count, const AttrInfoS
 RC Db::drop_table(const char *table_name)
 {
   auto it = opened_tables_.find(table_name);
-  if(it == opened_tables_.end()){
+  if (it == opened_tables_.end()) {
     return RC::SCHEMA_TABLE_EXIST;
   }
   Table *table = it->second;
-  RC rc=table->destroy(path_.c_str());
-  if(rc!=RC::SUCCESS) return rc;
+  RC     rc    = table->destroy(path_.c_str());
+  if (rc != RC::SUCCESS)
+    return rc;
 
   opened_tables_.erase(it);
   delete table;

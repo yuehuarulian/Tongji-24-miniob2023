@@ -19,7 +19,7 @@ See the Mulan PSL v2 for more details. */
 #include <sstream>
 #include "common/time/date.h"
 
-const char *ATTR_TYPE_NAME[] = {"undefined", "chars", "ints", "floats", "booleans", "dates"};
+const char *ATTR_TYPE_NAME[] = {"undefined", "chars", "ints", "floats", "dates", "booleans"};
 
 const char *attr_type_to_string(AttrType type)
 {
@@ -66,8 +66,8 @@ void Value::set_data(char *data, int length)
       length_                = length;
     } break;
     case DATES: {
-      num_value_.bool_value_ = *(int *)data != 0;
-      length_                = length;
+      num_value_.int_value_ = *(int *)data;
+      length_               = length;
     } break;
     default: {
       LOG_WARN("unknown data type: %d", attr_type_);
@@ -109,7 +109,8 @@ void Value::set_date(int val)
 {
   attr_type_            = DATES;
   num_value_.int_value_ = val;
-  length_               = sizeof(val);
+  std::cout << "set_date_val:" << val << "length_:" << length_ << std::endl;
+  length_ = sizeof(val);
 }
 
 void Value::set_value(const Value &value)
